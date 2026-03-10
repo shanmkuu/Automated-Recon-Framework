@@ -43,6 +43,10 @@ def main():
     if not subdomains:
         logger.error("No subdomains found. Exiting.")
         sys.exit(1)
+        
+    logger.info(f"Discovered {len(subdomains)} subdomains:")
+    for sub in subdomains:
+        logger.info(f"  -> {sub}")
 
     # Step 2: Alive Host Checking
     logger.info("--- [ Phase 2: Alive Host Checking ] ---")

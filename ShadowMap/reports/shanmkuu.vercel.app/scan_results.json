@@ -1,0 +1,29 @@
+{
+    "domain": "shanmkuu.vercel.app",
+    "scan_date": "2026-03-10T12:42:43.306151",
+    "total_subdomains": 1,
+    "subdomains": [
+        "shanmkuu.vercel.app"
+    ],
+    "alive_hosts_count": 2,
+    "alive_hosts": [
+        {
+            "url": "http://shanmkuu.vercel.app",
+            "status_code": 308,
+            "server": "Vercel",
+            "title": ""
+        },
+        {
+            "url": "https://shanmkuu.vercel.app",
+            "status_code": 200,
+            "server": "Vercel",
+            "title": "shan's digital fortress"
+        }
+    ],
+    "port_scan_results": {
+        "shanmkuu.vercel.app": [
+            80,
+            443
+        ]
+    }
+}
