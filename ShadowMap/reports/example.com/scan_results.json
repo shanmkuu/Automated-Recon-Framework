@@ -1,0 +1,92 @@
+{
+    "domain": "example.com",
+    "scan_date": "2026-03-10T11:50:36.912185",
+    "total_subdomains": 10,
+    "subdomains": [
+        "AS207960 Test Intermediate - example.com",
+        "dev.example.com",
+        "example.com",
+        "m.example.com",
+        "m.testexample.com",
+        "products.example.com",
+        "subjectname@example.com",
+        "support.example.com",
+        "user@example.com",
+        "www.example.com"
+    ],
+    "alive_hosts_count": 9,
+    "alive_hosts": [
+        {
+            "url": "http://example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "https://example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "http://m.testexample.com",
+            "status_code": 200,
+            "server": "Unknown",
+            "title": ""
+        },
+        {
+            "url": "http://subjectname@example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "https://subjectname@example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "http://user@example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "https://user@example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "http://www.example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        },
+        {
+            "url": "https://www.example.com",
+            "status_code": 200,
+            "server": "cloudflare",
+            "title": "Example Domain"
+        }
+    ],
+    "port_scan_results": {
+        "www.example.com": [
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "example.com": [
+            80,
+            443,
+            8080,
+            8443
+        ],
+        "m.testexample.com": [
+            80,
+            443
+        ]
+    }
+}

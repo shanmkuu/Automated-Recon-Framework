@@ -1,0 +1,9 @@
+http://example.com
+https://example.com
+http://m.testexample.com
+http://subjectname@example.com
+https://subjectname@example.com
+http://user@example.com
+https://user@example.com
+http://www.example.com
+https://www.example.com
