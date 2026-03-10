@@ -1,6 +1,6 @@
 # ShadowMap Recon Report: `example.com`
 
-**Date:** 2026-03-10 11:50:36
+**Date:** 2026-03-10 12:33:12
 
 ## Overview
 
@@ -13,7 +13,7 @@
 | --- | :---: | --- | --- | --- |
 | http://example.com | `200` | cloudflare | Example Domain | `80, 443, 8080, 8443` |
 | https://example.com | `200` | cloudflare | Example Domain | `80, 443, 8080, 8443` |
-| http://m.testexample.com | `200` | Unknown |  | `80, 443` |
+| http://m.testexample.com | `200` | Unknown |  | `80, 443, 5101` |
 | http://subjectname@example.com | `200` | cloudflare | Example Domain | `80, 443, 8080, 8443` |
 | https://subjectname@example.com | `200` | cloudflare | Example Domain | `80, 443, 8080, 8443` |
 | http://user@example.com | `200` | cloudflare | Example Domain | `80, 443, 8080, 8443` |

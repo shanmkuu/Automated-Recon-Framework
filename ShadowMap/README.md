@@ -110,4 +110,4 @@ ShadowMap generates an `alive_urls.txt` file within the `reports/{domain}/` dire
 
 ---
 
-**Made with 🖤 by shanmkuu.**
+**Made with 🖤 by Emmanuel Leshan.**

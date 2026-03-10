@@ -1,6 +1,6 @@
 {
     "domain": "example.com",
-    "scan_date": "2026-03-10T11:50:36.912185",
+    "scan_date": "2026-03-10T12:33:12.521337",
     "total_subdomains": 10,
     "subdomains": [
         "AS207960 Test Intermediate - example.com",
@@ -72,11 +72,10 @@
         }
     ],
     "port_scan_results": {
-        "www.example.com": [
+        "m.testexample.com": [
             80,
             443,
-            8080,
-            8443
+            5101
         ],
         "example.com": [
             80,
@@ -84,9 +83,11 @@
             8080,
             8443
         ],
-        "m.testexample.com": [
+        "www.example.com": [
             80,
-            443
+            443,
+            8080,
+            8443
         ]
     }
 }
